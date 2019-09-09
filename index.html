@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LabMD</title>
+</head>
+
+<body>
+  <div class="nav up">
+    <button onclick="view(1)">1</button>
+    <button onclick="view(2)">2</button>
+    <button onclick="view(3)">3</button>
+    <button onclick="printLab()">print</button>
+  </div>
+  <div class="main editor" id="main">
+    <carve-editor>
+
+    </carve-editor>
+    <div id="preview" class="display card down page">
+
+    </div>
+  </div>
+  <link rel="stylesheet" href="carve.css">
+  <script src="markdown.js"></script>
+  <script src="index.js"></script>
+  <script src="components.js"></script>
+</body>
+
+</html>
